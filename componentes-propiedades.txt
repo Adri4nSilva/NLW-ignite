@@ -1,0 +1,3 @@
+componentes: funcao que sempre começa com a letra maiúscula e retorna um conjunto de tags html
+
+propiedades: trazer diferenciação entre cada instancia de um componente em tela

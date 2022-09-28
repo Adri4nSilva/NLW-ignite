@@ -1,0 +1,42 @@
+npm init -y: instalar as dependencias do Json
+npm install express - micro-framework: conjunto de codigos comuns no backend - para o node
+npm i typescript -D: instalar o typescript
+npx tsc --init
+npm run build
+
+
+
+request - buscar informações do acesso do user em uma rota
+
+response - devolver uma resposta
+
+
+/**
+ * HTTP methods - API RESTful
+ * 
+ * GET - operação de leitura do back-end
+ * POST - criar algo, uma entidade, algum recurso no back-end
+ * PUT - editar uma entidade praticamente por completo do back-end
+ * PATCH - editar uma informação muito específica dentro de uma entidade
+ * DELETE - remover alguma entidade do back-end
+ */
+
+nao utilizar verbos para indicar o que o método está fazendo
+sempre utilizar no plural
+
+
+/**
+ * HTTP codes
+ * status(201) - algo foi criado
+ * HTTP codes que começam com 200+ indica sucesso
+ * HTTP codes que começam com 300+ indica redirecionamento
+ * HTTP codes que começam com 400+ indica erros que aconteceram por algum codigo bugado
+ * HTTP codes que começam com 500+ indica erros inesperados
+ */
+
+ /**
+ * Params
+ * Query: params que vem através do ponto de interrogação/ utilizados quando se precisa persistir estado/ utilizado para filtros, ordenação, paginação, coisas que não são sensíveis (senha) - fica salvo na URL/ sempre são nomeados
+ * Route: params que também fazem parte da URL mas que não são nomeados/ utilizado quando se quer fazer uma identificação de recurso
+ * Body: utilizado quando vai ser enviado várias informações numa unica requisição, geralmente para envio de formulário/ não fica na URL/ utilizado para informações mais sensíveis
+ */
